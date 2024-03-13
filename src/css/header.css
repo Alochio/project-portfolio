@@ -1,0 +1,52 @@
+header {
+    width: 100%;
+    background-color: aqua;
+}
+
+header .summary {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+header .photo {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header .photo img {
+    max-width: 90%;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 20px 20px 40px rgb(204, 204, 204);
+}
+
+
+@media only screen and (min-width: 720px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .summary {
+        width: 60%;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    header .photo {
+        margin: 1rem auto;
+    }
+
+    header .photo img{
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    header .summary {
+        font-size: 2rem;
+    }
+}
