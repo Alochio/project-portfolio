@@ -1,0 +1,19 @@
+.controller{
+    width: 100%;
+    text-align: end;
+    background-color: rgb(247, 247, 247);
+}
+
+.controller button{
+    width: 100px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    color: gray;
+    background-color: transparent;
+    transition: background-color 0.8s ease;
+}
+
+.controller button:hover{
+    background-color: rgb(218, 218, 218);
+}
