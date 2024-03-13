@@ -1,4 +1,4 @@
-.tecnology{
+#tecnology{
     width: 100%;
     padding: .5rem;
     background-color: rgb(245, 245, 245);
@@ -8,7 +8,11 @@
     box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5), inset 0 -5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 
-.tecnology img{
+#tecnology h2{
+    text-align: center;
+}
+
+#tecnology img{
     padding: .5rem;
     margin: 1px;
     opacity: 0.3; 

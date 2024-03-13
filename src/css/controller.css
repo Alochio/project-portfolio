@@ -1,19 +1,30 @@
-.controller{
+.controller {
     width: 100%;
-    text-align: end;
+    text-align: center;
     background-color: rgb(247, 247, 247);
 }
 
-.controller button{
-    width: 100px;
+.controller button {
+    width: 80px;
     margin-right: 1rem;
     border-radius: 1rem;
     border: 1px solid gray;
     color: gray;
     background-color: transparent;
     transition: background-color 0.8s ease;
+    margin-bottom: 3px;
 }
 
-.controller button:hover{
+.controller button:hover {
     background-color: rgb(218, 218, 218);
+}
+
+@media only screen and (min-width: 720px) {
+    .controller {
+        text-align: end;
+    }
+
+    .controller button {
+        width: 100px;
+    }
 }
