@@ -7,10 +7,22 @@ header .summary {
     width: 100%;
     text-align: center;
     padding: 1rem;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+header .summary:hover{
+    transform: rotateY(20deg) rotateX(10deg);
 }
 
 header .photo {
     text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+header .photo:hover{
+    transform: rotateY(-20deg) rotateX(10deg);
 }
 
 header .photo img {
@@ -27,7 +39,7 @@ header .photo img {
         display: flex;
         align-items: center;
     }
-    
+
     header .summary {
         width: 60%;
         font-size: 1.5rem;
@@ -38,7 +50,7 @@ header .photo img {
         margin: 1rem auto;
     }
 
-    header .photo img{
+    header .photo img {
         width: auto;
     }
 }

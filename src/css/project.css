@@ -28,6 +28,14 @@
     padding: 0 1rem 0 1rem;
 }
 
+#project .text-project .buttons{
+    text-align: center;
+}
+
+#project .text-project .buttons .button{
+    margin: 0 1rem 0 1rem;
+}
+
 @media only screen and (min-width: 720px) {
     #project .card {
         width: 100%;
