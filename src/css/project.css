@@ -1,9 +1,12 @@
 #project{
     width: 100%;
+}
+
+#project .card{
+    width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     background-color: rgb(218, 218, 218);
 }
-
 
 #project .image-project{
     width: 100%;
@@ -26,18 +29,19 @@
 }
 
 @media only screen and (min-width: 720px) {
-    #project{
+    #project .card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
         align-items: center;
-        display: flex;
     }
 
-    #project .image-project img{
+    #project .image-project{
+        width: 100%;
+    }
+
+    #project .text-project{
+        width: 100%;
         padding: 1rem;
-        max-width: 100%px;
-    }
-
-    #project .text-project p{
-        padding: 0 5rem 0 5rem;
-        font-size: 1.5rem;
     }
 }
