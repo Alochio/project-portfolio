@@ -7,11 +7,14 @@ header .summary {
     width: 100%;
     text-align: center;
     padding: 1rem;
+}
+
+header .summary .text-sumary{
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
 
-header .summary:hover{
+header .summary .text-sumary:hover{
     transform: rotateY(20deg) rotateX(10deg);
 }
 

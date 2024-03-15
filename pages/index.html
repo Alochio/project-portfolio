@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../src/css/nav.css">
     <link rel="stylesheet" href="../src/css/controller.css">
     <link rel="stylesheet" href="../src/css/header.css">
+    <link rel="stylesheet" href="../src/css/timeline.css">
     <link rel="stylesheet" href="../src/css/tecnology.css">
     <link rel="stylesheet" href="../src/css/project.css">
     <link rel="stylesheet" href="../src/css/carrosel.css">
@@ -28,10 +29,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#home">Início</a>
-                    <a class="nav-link active" aria-current="page" href="#">Descrição</a>
+                    <a class="nav-link active" aria-current="page" href="#timeline">Descrição</a>
                     <a class="nav-link active" aria-current="page" href="#tecnology">Tecnologias</a>
                     <a class="nav-link active" aria-current="page" href="#project">Projetos</a>
-                    <a class="nav-link active" aria-current="page" href="#carouselExampleControlsNoTouching">Certificados</a>
+                    <a class="nav-link active" aria-current="page"
+                        href="#carouselExampleControlsNoTouching">Certificados</a>
                 </div>
             </div>
         </div>
@@ -42,16 +44,59 @@
     </div>
     <header>
         <div class="summary" id="home">
-            <h2>Olá, eu sou o Vinícius!</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, et. Est, perferendis quisquam
-                voluptate
-                vitae esse exercitationem nobis aut velit, cupiditate dolor totam placeat quo eligendi minus, soluta
-                similique quasi.</p>
+            <div class="text-sumary">
+                <h2>Olá, eu sou o Vinícius!</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, et. Est, perferendis quisquam
+                    voluptate
+                    vitae esse exercitationem nobis aut velit, cupiditate dolor totam placeat quo eligendi minus, soluta
+                    similique quasi.</p>
+            </div>
+            <button type="button" class="btn btn-dark button">GitHub</button>
+            <button type="button" class="btn btn-dark button">LinkedIn</button>
         </div>
         <div class="photo">
             <img src="https://avatars.githubusercontent.com/u/76494341?v=4" alt="Foto de perfil do Vinícius">
         </div>
     </header>
+
+
+    <div id="timeline">
+        <ul>
+            <li>
+                <div class="date">2002</div>
+                <div class="title">Title 1</div>
+                <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam
+                    fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+            </li>
+            <li>
+                <div class="date">2007</div>
+                <div class="title">Title 2</div>
+                <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum
+                    vero nihil veniam.</div>
+            </li>
+            <li>
+                <div class="date">2012</div>
+                <div class="title">Title 3</div>
+                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur
+                    soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi
+                    quo, et dolorum saepe nulla hic.</div>
+            </li>
+            <li>
+                <div class="date">2017</div>
+                <div class="title">Title 4</div>
+                <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+            </li>
+            <li>
+                <div class="date">2022</div>
+                <div class="title">Title 5</div>
+                <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
 
     <div id="tecnology">
         <div class="text">
@@ -60,8 +105,8 @@
         <div class="images">
             <img src="../src/images/icons/angular.png" alt="Angular" title="Angular">
             <img src="../src/images/icons/bootstrap.png" alt="bootstrap" title="Bootstrap">
-            <img src="../src/images/icons/c++.png" alt="c++" title="c++">
             <img src="../src/images/icons/c.png" alt="c" title="C">
+            <img src="../src/images/icons/c++.png" alt="c++" title="c++">
             <img src="../src/images/icons/css3.png" alt="css" title="CSS">
             <img src="../src/images/icons/git.png" alt="git" title="Git">
             <img src="../src/images/icons/html5.png" alt="html" title="HTML5">
@@ -88,8 +133,8 @@
                     consequuntur
                     qui voluptatem corrupti inventore!</p>
                 <div class="buttons">
-                    <button type="button" class="btn btn-dark button">Ver projeto</button>
                     <button type="button" class="btn btn-dark button">GitHub</button>
+                    <button type="button" class="btn btn-dark button">Ver projeto</button>
                 </div>
             </div>
         </div>
