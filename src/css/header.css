@@ -1,5 +1,6 @@
 header {
     width: 100%;
+    height: 90vh;
     background-color: rgb(247, 247, 247);
 }
 
@@ -9,23 +10,14 @@ header .summary {
     padding: 1rem;
 }
 
-header .summary .text-sumary{
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-}
-
-header .summary .text-sumary:hover{
-    transform: rotateY(20deg) rotateX(10deg);
-}
-
 header .photo {
     text-align: center;
     transform-style: preserve-3d;
-    transition: transform 0.5s;
+    transition: transform 0.8s;
 }
 
 header .photo:hover{
-    transform: rotateY(-20deg) rotateX(10deg);
+    transform: rotateY(-180deg) rotateX(10deg);
 }
 
 header .photo img {
