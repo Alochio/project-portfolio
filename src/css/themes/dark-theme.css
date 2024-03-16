@@ -2,12 +2,8 @@ p, h1, h2, h3, a{
     color: #ffffff;
 }
 
-#navbarNavAltMarkup{
-    background-color: #151515;
-}
-
 #navbarNavAltMarkup a:hover{
-    color: rgb(209, 209, 209);
+    color: #7f28b5;
 }
 
 .controller {
