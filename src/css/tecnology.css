@@ -23,7 +23,6 @@
 
 #tecnology img{
     margin: 1rem;
-    opacity: 0.3;
     width: 50px; 
     transition: transform 0.3s ease;
 }

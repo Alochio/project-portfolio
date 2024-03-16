@@ -1,0 +1,67 @@
+p, h1, h2, h3, a{
+    color: #ffffff;
+}
+
+#navbarNavAltMarkup{
+    background-color: #151515;
+}
+
+#navbarNavAltMarkup a:hover{
+    color: rgb(209, 209, 209);
+}
+
+.controller {
+    background-color: #1e192c;
+    
+}
+
+header {
+    background-color: #1e192c;
+}
+
+header .photo img {
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
+}
+
+
+#project .card{
+    background-color: #1e192c;
+}
+
+#tecnology{
+    background-color: #1e192c;
+}
+
+#tecnology img{
+    opacity: 0.8;
+}
+
+
+#timeline{
+    background-color: rgb(247, 247, 247);
+}
+
+#timeline ul li .title,
+#timeline ul li .descr {
+    background-color: rgb(209, 209, 209);
+}
+
+#timeline ul li .date::after {
+    background: #1e192c;
+}
+
+#timeline ul li .date {
+    color: #ffffff;
+}
+
+#timeline ul::before {
+    background-color: #1e192c;
+}
+
+#timeline ul li .date {
+    background-color: #1e192c;
+}
+
+#timeline ul li .date::before {
+    background-color: #1e192c;
+}
