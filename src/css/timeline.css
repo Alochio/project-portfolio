@@ -15,6 +15,8 @@
   list-style: none;
   width: min(60rem, 90%);
   margin-inline: auto;
+  margin-bottom: 0;
+  padding: 1rem;
 }
 
 /* line */
@@ -22,7 +24,6 @@
   content: "";
   grid-column: 1;
   grid-row: 1 / span 20;
-  background-color: rgb(225, 225, 225);
   border-radius: calc(var(--line-w) / 2);
 }
 
@@ -50,9 +51,7 @@
   margin-inline: calc(var(--inlineP) * -1);
 
   text-align: center;
-  background-color: #000000;
-
-  color: white;
+  
   font-size: 1.25rem;
   font-weight: 700;
 
@@ -68,7 +67,6 @@
   content: "";
   width: var(--inlineP);
   aspect-ratio: 1;
-  background: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
   position: absolute;
   top: 100%;
@@ -83,7 +81,6 @@
   position: absolute;
   width: 2rem;
   aspect-ratio: 1;
-  background: var(--bgColor);
   border: 0.3rem solid #000000;
   border-radius: 50%;
   top: 50%;
@@ -95,7 +92,6 @@
 /* title descr */
 #timeline ul li .title,
 #timeline ul li .descr {
-  background: var(--bgColor);
   position: relative;
   padding-inline: 1.5rem;
 }

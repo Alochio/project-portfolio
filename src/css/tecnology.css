@@ -3,7 +3,6 @@
     min-height: 200px;
     padding: 1rem;
     
-    background-color: rgb(245, 245, 245);
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5), inset 0 -5px 5px -5px rgba(0, 0, 0, 0.5);

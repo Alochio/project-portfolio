@@ -1,0 +1,57 @@
+#navbarNavAltMarkup{
+    background-color: rgb(247, 247, 247);
+}
+
+#navbarNavAltMarkup a:hover{
+    color: rgb(209, 209, 209);
+}
+
+header {
+    background-color: rgb(247, 247, 247);
+}
+
+.controller {
+    background-color: rgb(247, 247, 247);
+    
+}
+
+#project .card{
+    background-color: rgb(247, 247, 247);
+}
+
+#tecnology{
+    background-color: rgb(247, 247, 247);
+}
+
+p, h1, h2, h3{
+    color: #000000;
+}
+
+#timeline{
+    background-color: rgb(247, 247, 247);
+}
+
+#timeline ul li .title,
+#timeline ul li .descr {
+    background-color: rgb(209, 209, 209);
+}
+
+#timeline ul li .date::after {
+    background: #000000;
+}
+
+#timeline ul li .date {
+    color: #ffffff;
+}
+
+#timeline ul::before {
+    background-color: #000000;
+}
+
+#timeline ul li .date {
+    background-color: #000000;
+}
+
+#timeline ul li .date::before {
+    background: #ffffff;
+}
