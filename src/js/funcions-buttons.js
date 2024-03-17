@@ -7,7 +7,6 @@ buttonGit.forEach(function (botao) {
   });
 });
 
-
 buttonLinkedin.forEach(function (botao) {
     botao.addEventListener("click", function () {
       window.open("https://www.linkedin.com/in/vinicius-alochio/", "_blank");
