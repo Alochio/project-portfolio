@@ -29,11 +29,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#home">Início</a>
-                    <a class="nav-link active" aria-current="page" href="#timeline">Descrição</a>
-                    <a class="nav-link active" aria-current="page" href="#tecnology">Tecnologias</a>
-                    <a class="nav-link active" aria-current="page" href="#project">Projetos</a>
-                    <a class="nav-link active" aria-current="page"
+                    <a class="nav-link active idioma" aria-current="page" href="#home">Início</a>
+                    <a class="nav-link active idioma" aria-current="page" href="#timeline">Descrição</a>
+                    <a class="nav-link active idioma" aria-current="page" href="#tecnology">Tecnologias</a>
+                    <a class="nav-link active idioma" aria-current="page" href="#project">Projetos</a>
+                    <a class="nav-link active idioma" aria-current="page"
                         href="#carouselExampleControlsNoTouching">Certificados</a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
 
 
     <div class="controller" style="padding: 1rem;">
-        <button>IDIOMA</button>
+        <button onclick="alterarIdioma()">IDIOMA</button>
         <button onclick="alterarTema()">TEMA</button>
     </div>
 
@@ -181,6 +181,7 @@
         </button>
     </div>
 
+    <script src="./src/js/select-idioma.js"></script>
     <script src="./src/js/select-theme.js"></script>
     <script src="./src/js/funcions-buttons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

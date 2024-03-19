@@ -1,7 +1,6 @@
 var temaAtual = "light";
 
 function alterarTema() {
-  console.log("entrei aqui");
   var link = document.getElementById("theme-link");
 
   if (temaAtual === "light") {
